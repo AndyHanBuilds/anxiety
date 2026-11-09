@@ -6,7 +6,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
   vec3 sky = vec3(0.1, 0.05, 0.3);
 
-  float t = iTime * 0.1;
+  float t = iTime**1.2 * 0.6;
   float bend = atan(uv.x * 80.0) * 0.05;
   float h = uv.y + bend;
 
